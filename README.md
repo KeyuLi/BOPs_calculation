@@ -2,7 +2,7 @@
 This is a python implemenation based on [torchstat](https://github.com/Swall0w/torchstat) for BOPs（the number of binary operations） calculation.
 The usage is same as [torchstat](https://github.com/Swall0w/torchstat)
 
-The rule of BOPs calculation is similar to FLOPs：for a given feature map whose size is 1 * 3 * 224 * 224, it forward with a conv with 7 * 7 kernel size and generate a feature map whose size is 1 * 64 * 112 * 112. Thus the BOPs of this conv is 3 * 7 * 7 * 64 * 112 * 112 * 1
+The rule of BOPs calculation is similar to FLOPs：for a given feature map whose size is 1 * 3 * 224 * 224, it forward with a conv with 7 * 7 kernel size and generate a feature map whose size is 1 * 64 * 112 * 112. Thus the BOPs of this conv are 3 * 7 * 7 * 64 * 112 * 112 * 1
 
 # Example 
 ```
