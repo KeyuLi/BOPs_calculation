@@ -88,3 +88,5 @@ Total Bops: 2.2GBops
 Total MemR+W: 32.53MB
 ```
 
+#Reference
+[torchstat](https://github.com/Swall0w/torchstat)
