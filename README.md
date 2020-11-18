@@ -6,7 +6,7 @@ The rule of BOPs calculation is similar to FLOPs：for a given feature map whose
 
 # Example 
 ```
-                                       module name  input shape output shape      params memory(MB)           MAdd          Flops             Bops  MemRead(B)  MemWrite(B) duration[%]   MemR+W(B)
+                      module name  input shape output shape      params memory(MB)           MAdd          Flops             Bops  MemRead(B)  MemWrite(B) duration[%]   MemR+W(B)
 0                           conv1    3 224 224   64 112 112      9408.0       3.06  235,225,088.0  118,013,952.0              0.0    639744.0    3211264.0       2.29%   3851008.0
 1                             bn1   64 112 112   64 112 112       128.0       3.06    3,211,264.0    1,605,632.0              0.0   3211776.0    3211264.0       0.97%   6423040.0
 2                         maxpool   64 112 112   64  56  56         0.0       0.77    1,605,632.0      802,816.0              0.0   3211264.0     802816.0      11.76%   4014080.0
